@@ -1,0 +1,47 @@
+{
+  "name": "hlf-backend",
+  "version": "1.0.0",
+  "description": "backend boilerplate to connect with hlf network",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vishwas1/hl-backend.git"
+  },
+  "keywords": [
+    "hyperledger",
+    "fabric",
+    "hurley",
+    "convector"
+  ],
+  "author": "vishwas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vishwas1/hl-backend/issues"
+  },
+  "homepage": "https://github.com/Vishwas1/hl-backend#readme",
+  "dependencies": {
+    "@worldsibu/convector-adapter-fabric": "^1.3.3",
+    "@worldsibu/convector-core": "^1.3.3",
+    "body-parser": "^1.18.3",
+    "car-cc": "file:./fabcar/packages/car-cc",
+    "cookie-parser": "^1.4.4",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "express-useragent": "^1.0.12",
+    "fabric-client": "^1.4.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "babel-eslint": "^8.2.6",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4"
+  }
+}
