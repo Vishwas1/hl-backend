@@ -4,6 +4,8 @@ import { CarControllerBackEnd, InitServerIdentity } from "../convector";
 const router: Router = Router();
 
 InitServerIdentity();
+
+// http://localhost:8080/car/create
 router.get("/:id", async (req: Request, res: Response) => {
   try {
     const { id } = req.params;
@@ -13,6 +15,7 @@ router.get("/:id", async (req: Request, res: Response) => {
   }
 });
 
+// http://localhost:8080/car/:id=231
 router.post("/create", async (req: Request, res: Response) => {
   try {
     const newCar =  new Car({
